@@ -17,3 +17,27 @@ Step 6: I learned about why big companies integrate with devOps teams for their 
 Step 6: It was the time to choose the programming language for devOps. I 'm from the MERN Stack background. I know javascript and it's frontent and backend framework like react, redux and node.js mongoose. The most common programming language to choose for devops is Golang and Python. With useless brainstorming I choose to learn Golang.
 
 Step 7: I started a course on Youtube from TechWorld with Nana.
+
+I started golang by setting the environment and installing the go language. Then after that I've created a folder called Golang and also a src folder inside it. 
+
+The golang should be a initialized by the command as go mod init <app_name>
+
+I got some gopls erros while writing the code. I searched the whole stackoverflow but didn't got the solution. The error was due to the latest version of goland which is 1.18.
+
+Vs code asked me to install some packages automatically and I installed but also the error was still there. I didn't figured out how to solve it. I closed my pc. After some hours I opened the same folder but this time the error was gone... How amazing and I still don't know how that happened. 😂 😂 😂 
+
+After that a go.mod file is created inside the repository.
+main.go is the initial file for starting to code in golang language.
+
+It is started by writing:
+
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Print("Hello World")
+}
+
+After that the file is executed by the command as go run src/main.go
+

@@ -2,4 +2,4 @@ I started the 90 days devops challenge. I wanted to enhance my career and skills
 
 This will be helpful to me for my future because of documenting everything I'm going to learn during this challenge.
 
-So here starts the journey...
+So here starts the journey...🙂🙂
