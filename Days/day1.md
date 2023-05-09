@@ -41,3 +41,10 @@ func main() {
 
 After that the file is executed by the command as go run src/main.go
 
+After all the things I pushed the files to my github repo...
+
+
+Thank you for day 1...
+
+Excited to learn more in Day 2....
+
