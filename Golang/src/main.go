@@ -4,6 +4,26 @@ import (
 	"fmt" //format package
 	// "strings"
 )
+func addTwoNumber(a int, b int) int {
+	// sum := a + b;
+	// fmt.Printf("The sum of %v and %v is %v", a, b, sum)
+	return a+b
+}
+func subTwoNumber(a int, b int) int {
+	// diff := a - b;
+	// fmt.Printf("The sum of %v and %v is %v", a, b, diff)
+	return a - b
+}
+func mulTwoNumber(a int, b int) int {
+	// mul := a * b;
+	// fmt.Printf("The sum of %v and %v is %v", a, b, mul)
+	return a * b
+}
+func divTwoNumber(a int, b int) int {
+	// div := a + b;
+	// fmt.Printf("The sum of %v and %v is %v", a, b, div)
+	return a / b
+}
 
 
 
@@ -63,35 +83,70 @@ func main() {
 
 	// fmt.Println(allUsers)
 
+	// var a int
+	// var b int
+	// var c string
+
+	// fmt.Println("Enter the value of a: ")
+	// fmt.Scan(&a)
+	// fmt.Println("Enter the value of b: ")
+	// fmt.Scan(&b)
+	// fmt.Println("Enter the operator: +, -, *, /  : ")
+	// fmt.Scan(&c)
+
+	// switch c {
+	// case "+":
+	// 	fmt.Printf("The sum of %v and %v is %v", a, b, a+b)
+		
+	// case "-":
+	// 	fmt.Printf("The difference of %v and %v is %v", a, b, a-b)
+		
+	// case "*":
+	// 	fmt.Printf("The product of %v and %v is %v", a, b, a*b)
+		
+	// case "/":
+	// 	fmt.Printf("The quotient of %v and %v is %v", a, b, a/b)
+		
+	//  default:
+	// 	fmt.Printf("Error in selecting operator")
+
+		
+	// }
+
+
 	var a int
 	var b int
-	var c string
 
-	fmt.Println("Enter the value of a: ")
+	var c int
+
+	fmt.Print("Enter the value of a: ")
 	fmt.Scan(&a)
-	fmt.Println("Enter the value of b: ")
+	fmt.Print("Enter the value of b: ")
 	fmt.Scan(&b)
-	fmt.Println("Enter the operator: +, -, *, /  : ")
+	fmt.Printf("Enter 1. Add\n 2. Sub\n 3. Mul \n 4. Div\n")
 	fmt.Scan(&c)
 
-	switch c {
-	case "+":
-		fmt.Printf("The sum of %v and %v is %v", a, b, a+b)
+	if c == 1 {
+		sum := addTwoNumber(a, b)
+		fmt.Printf("The sum of %v and %v is %v", a, b, sum)
 		
-	case "-":
-		fmt.Printf("The difference of %v and %v is %v", a, b, a-b)
-		
-	case "*":
-		fmt.Printf("The product of %v and %v is %v", a, b, a*b)
-		
-	case "/":
-		fmt.Printf("The quotient of %v and %v is %v", a, b, a/b)
-		
-	 default:
-		fmt.Printf("Error in selecting operator")
+	}else if c == 2 {
+		diff := subTwoNumber(a, b)
+		fmt.Printf("The difference of %v and %v is %v", a, b, diff)
 
-		
+	} else if c == 3 {
+		mul:= mulTwoNumber(a,b)
+		fmt.Printf("The product of %v and %v is %v", a, b, mul)
+
+	}else if c == 4 {
+		div:= divTwoNumber(a, b)
+		fmt.Printf("The quotient of %v and %v is %v", a, b, div)
+	} else {
+		fmt.Println("Invalid operator")
 	}
+
+
+	
 	
 	
 

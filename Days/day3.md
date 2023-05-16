@@ -10,3 +10,6 @@ Another way to write for loop in golang is
 for someCondition > 0 && len(someCondition) < 50 {
     <!-- Execute this block of code -->
 }
+
+
+I also learned about switch statements in goland which is also very similar to c Programming

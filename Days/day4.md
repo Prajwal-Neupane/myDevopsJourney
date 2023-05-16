@@ -1,0 +1,3 @@
+Today I"m still learning the course. I'm sure that I"ll finish it today... Ha ha ha ha
+
+I learned about functions and writing the functions best practices.. Here the function should mention the types of the parameters that we are passing and also the return type of the function if we are returning something... 
