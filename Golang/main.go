@@ -2,28 +2,11 @@ package main
 
 import (
 	"fmt" //format package
-	// "strings"
+	"golang-app/helper"
 )
-func addTwoNumber(a int, b int) int {
-	// sum := a + b;
-	// fmt.Printf("The sum of %v and %v is %v", a, b, sum)
-	return a+b
-}
-func subTwoNumber(a int, b int) int {
-	// diff := a - b;
-	// fmt.Printf("The sum of %v and %v is %v", a, b, diff)
-	return a - b
-}
-func mulTwoNumber(a int, b int) int {
-	// mul := a * b;
-	// fmt.Printf("The sum of %v and %v is %v", a, b, mul)
-	return a * b
-}
-func divTwoNumber(a int, b int) int {
-	// div := a + b;
-	// fmt.Printf("The sum of %v and %v is %v", a, b, div)
-	return a / b
-}
+
+
+
 
 
 
@@ -127,23 +110,37 @@ func main() {
 	fmt.Scan(&c)
 
 	if c == 1 {
-		sum := addTwoNumber(a, b)
+		sum := helper.AddTwoNumber(a, b)
 		fmt.Printf("The sum of %v and %v is %v", a, b, sum)
-		
 	}else if c == 2 {
-		diff := subTwoNumber(a, b)
+		diff := helper.SubTwoNumber(a, b)
 		fmt.Printf("The difference of %v and %v is %v", a, b, diff)
 
 	} else if c == 3 {
-		mul:= mulTwoNumber(a,b)
+		mul:= helper.AddTwoNumber(a,b)
 		fmt.Printf("The product of %v and %v is %v", a, b, mul)
 
 	}else if c == 4 {
-		div:= divTwoNumber(a, b)
+		div:= helper.DivTwoNumber(a, b)
 		fmt.Printf("The quotient of %v and %v is %v", a, b, div)
 	} else {
 		fmt.Println("Invalid operator")
 	}
+
+	// type UserData struct {
+	// 	firstName string
+	// 	lastName string
+	// 	email string 
+	// 	age int 
+	// 	isValidUser bool 
+	// }
+	
+
+	// var somethingElse = make([]UserData, 0)
+
+
+
+	
 
 
 	
